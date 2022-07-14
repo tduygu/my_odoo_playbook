@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_appcms1_book,appcms1.book,model_appcms1_book,,1,0,0,0
+access_appcms1_librarian,appcms1.librarian,model_appcms1_book,appcms1_group_librarian,1,1,1,1
