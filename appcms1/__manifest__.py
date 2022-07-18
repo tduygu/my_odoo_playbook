@@ -31,7 +31,7 @@
         'views/snippets.xml',
     ],
     'assets': {
-        'point_of_sale.assets': [
+        'appcms1.assets': [
             '/appcms1/static/src/css/my_library.css',
             '/appcms1/static/src/scss/my_library.scss',
             '/appcms1/static/src/js/my_library.js',
