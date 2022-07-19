@@ -7,7 +7,11 @@ odoo.define('appowl1.component', function(require){
         static template = xml`
         <div class="bg-info text-center p-2">
             <b> Welcome my friend </b>
+            <i class="fa fa-close p-1 float-right" style="cursor: pointer;" t-on-click="onRemove"> </i>
         </div>`
+        onRemove(ev) {
+            this.destroy();
+        }
     }
 
     owl.utils.whenReady().then(() => {
